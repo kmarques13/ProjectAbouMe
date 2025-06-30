@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kauã Marques | Desenvolvedor Web Futurista</title>
+  <meta name="description" content="Portfólio de Kauã Marques, desenvolvedor web que cria sites modernos, futuristas e otimizados para SEO.">
+  <meta name="keywords" content="desenvolvedor web, criação de sites, freelancer wordpress, portfólio web, landing page, SEO">
+  <meta name="author" content="Kauã Marques">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- Schema.org - Pessoa -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kauã Marques",
+    "jobTitle": "Desenvolvedor Web",
+    "url": "https://kauamarques.github.io",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Google Analytics (exemplo genérico) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+  </script>
+
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #e0e0e0;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Header -->
+  <header class="glass fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl md:text-2xl text-cyan-400 font-bold">Kauã Marques</h1>
+      <nav>
+        <ul class="flex gap-6 text-sm md:text-base">
+            <li><a href="index.html" class="hover:text-cyan-300 transition">Início</a></li>
+            <li><a href="sobre.html" class="hover:text-cyan-300 transition">Sobre</a></li>
+            <li><a href="servicos.html" class="hover:text-cyan-300 transition">Serviços</a></li>
+            <li><a href="blog.html" class="hover:text-cyan-300 transition">Blog</a></li>
+            <li><a href="projetos.html" class="hover:text-cyan-300 transition">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="pt-32 pb-24 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold bg-gradient-to-r from-cyan-400 to-purple-600 text-transparent bg-clip-text mb-6">
+        Criação de sites com tecnologia e visão de futuro
+      </h2>
+      <p class="text-lg text-gray-300 mb-8">Desenvolvimento web profissional, com design futurista e SEO de alto desempenho.</p>
+      <a href="#contato" class="inline-block px-8 py-3 rounded-lg bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition">
+        Solicitar Orçamento
+      </a>
+    </div>
+  </section>
+
+ <!-- Contato -->
+    <section id="contato" class="py-20 bg-black bg-opacity-30">
+    <div class="max-w-xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold text-white mb-8">Vamos Trabalhar Juntos</h3>
+        
+        <!-- Botão WhatsApp -->
+        <a href="https://wa.me/11978339819" target="_blank" rel="noopener" 
+        class="inline-block mb-8 px-8 py-3 rounded-lg bg-green-500 text-white font-semibold hover:bg-green-600 transition">
+        Fale comigo no WhatsApp
+        </a>
+
+        <!-- Formulário -->
+        <form action="https://formspree.io/f/xldnzgrk" method="POST" class="space-y-5 glass p-6 rounded-xl">
+        <input type="text" name="name" placeholder="Seu nome" 
+                class="w-full p-3 rounded-lg bg-black bg-opacity-40 text-white placeholder-gray-400" required>
+        <input type="email" name="email" placeholder="Seu e-mail" 
+                class="w-full p-3 rounded-lg bg-black bg-opacity-40 text-white placeholder-gray-400" required>
+        <textarea name="message" placeholder="Mensagem" 
+                    class="w-full p-3 rounded-lg bg-black bg-opacity-40 text-white placeholder-gray-400 h-32" required></textarea>
+        <button type="submit" 
+                class="bg-gradient-to-r from-purple-500 to-cyan-500 text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition">
+            Enviar Mensagem
+        </button>
+        </form>
+    </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-400 text-sm py-8">
+    © 2025 Kauã Marques — Desenvolvedor Web Futurista.
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre | Kauã Marques - Desenvolvedor Web</title>
+  <meta name="description" content="Conheça Kauã Marques, desenvolvedor web com foco em design moderno, performance e inovação.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: #e0e0e0;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="glass fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl md:text-2xl text-cyan-400 font-bold">Kauã Marques</h1>
+      <nav>
+        <ul class="flex gap-6 text-sm md:text-base">
+          <li><a href="index.html" class="hover:text-cyan-300 transition">Início</a></li>
+          <li><a href="servicos.html" class="hover:text-cyan-300 transition">Serviços</a></li>
+          <li><a href="blog.html" class="hover:text-cyan-300 transition">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo -->
+  <section class="pt-32 pb-24 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 text-transparent bg-clip-text mb-6">Sobre Mim</h2>
+      <!-- Avatar futuramente -->
+      <img 
+        src="img/eu.png" 
+        alt="Foto de Kauã Marques" 
+        class="w-32 h-32 mx-auto rounded-full shadow-lg object-cover"
+        />
+
+      <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+        Olá! Me chamo <strong class="text-cyan-300">Kauã Marques</strong>, sou um desenvolvedor web apaixonado por criar experiências digitais com visual futurista, alta performance e foco total em conversão.
+        <br /><br />
+        Meu trabalho é unir **design moderno**, **tecnologia de ponta** e **estratégias de SEO** para criar sites que não só impressionam, mas que geram resultados de verdade.
+        <br /><br />
+        Já atendi desde pequenas marcas até empreendedores digitais, criando **landing pages**, **portfólios**, **lojas virtuais** e sistemas personalizados com interfaces únicas.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 text-left text-gray-300">
+        <div class="glass p-6 rounded-lg">
+          <h3 class="text-xl text-cyan-400 font-bold mb-3">⚡ Tecnologias que domino</h3>
+          <ul class="list-disc ml-6 space-y-2">
+            <li>HTML5, CSS3 e Tailwind CSS</li>
+            <li>JavaScript e React.js</li>
+            <li>WordPress & Elementor Pro</li>
+            <li>SEO técnico e otimização de performance</li>
+            <li>Integrações com APIs e WhatsApp</li>
+          </ul>
+        </div>
+
+        <div class="glass p-6 rounded-lg">
+          <h3 class="text-xl text-purple-400 font-bold mb-3">🚀 Minha missão</h3>
+          <p>
+            Criar sites incríveis que não sejam apenas bonitos, mas **estrategicamente pensados** para atrair, engajar e converter visitantes em clientes.
+            <br /><br />
+            Estou sempre estudando novas ferramentas e tendências para entregar o que há de mais moderno e eficaz para meus clientes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-gray-400 text-sm py-8">
+    © 2025 Kauã Marques — Portfólio profissional. Design com tecnologia e visão de futuro.
+  </footer>
+
+</body>
+</html>
